@@ -1,0 +1,56 @@
+/* WelcomePage.css */
+.WelcomePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #333; /* Dark grey background */
+    color: white; /* White text */
+    padding: 0 20px; /* Optional: some padding to avoid edge touching */
+  }
+  
+  .WelcomePage-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .Logo {
+    height: 50px; /* Adjust as needed */
+    width: auto;
+  }
+  
+  .ProfileIcon img {
+    height: 50px; /* Adjust as needed */
+    width: auto;
+    border-radius: 50%; /* Make it circular if you want */
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .todo-container {
+    width: 100%;
+    max-width: 600px; /* Adjust max width to prevent overflow */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .todo-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #444; /* Slightly lighter grey for contrast */
+  }
+  
